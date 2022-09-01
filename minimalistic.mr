@@ -4,7 +4,6 @@ unit_names units()
 public node use_minimalistic_theme {
     input start_fullscreen: false;
     input speed_units: units.mph;
-    input pressure_units: units.inHg;
     input torque_units: units.lb_ft;
     input power_units: units.hp;
 
@@ -19,7 +18,6 @@ public node use_minimalistic_theme {
         color_background: 0x000000,
         color_foreground: 0xFFFFFF,
         color_highlight1: 0xFFFFFF,
-        color_highlight2: 0xFFFFFF,
         color_shadow: 0x000000,
         color_pink: 0xFFFFFF,
         color_red: 0xFFFFFF,
